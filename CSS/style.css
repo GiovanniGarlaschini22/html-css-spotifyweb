@@ -17,14 +17,34 @@ img {
 }
 
 /* COMMON */
-body {
-    font-family: sans-serif;
+
+.wrapper {
+    background-color: lightgray;
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.top-row {
+    background-color: lightgreen;
+    width: 100%;
+    height: 80px;
+}
+
+.side-bar {
+    background-color: lightblue;
+    width: 300px;
+    height: calc(100vh - 80px);
+}
+
+.bottom-row {
+    background-color: lightcoral;
+    width: 100%;
+    height: 80px;
 }
 /* COMMON */
 
 
 /* UTILITIES */
-
 /* UTILITIES */
 
 
