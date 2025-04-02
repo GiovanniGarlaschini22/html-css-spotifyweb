@@ -1,0 +1,35 @@
+/* Mobile large view */
+@media screen and (min-width: 600px) {
+
+    .side-bar {
+        width: 150px;
+    }
+
+    .main-content {
+        width: calc(100% - 150px);
+    }
+}
+
+/* Tablet view */
+@media screen and (min-width: 850px) {
+
+    .side-bar {
+        width: 150px;
+    }
+
+    .col {
+        width: calc((100% - 30px) / 4);
+    }
+}
+
+/* Desktop view */
+@media screen and (min-width: 1024px) {
+
+    .side-bar {
+        width: 150px;
+    }
+
+    .col {
+        width: calc((100% - 50px) / 6);
+    }
+}
