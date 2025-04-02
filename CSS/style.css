@@ -1,6 +1,11 @@
 /* CUSTOM PROPERTIES */
 :root {
-   
+   --grey-main: #141922;
+   --black-side-bar: #000000;
+   --green-hover: #ADFF2F;
+   --grey-text: #787A7F;
+   --white-text: #ffff;
+   --grey-action-bar: #282828;
 }
 /* CUSTOM PROPERTIES */
 
@@ -24,6 +29,71 @@ body {
 
 
 /* UTILITIES */
+.text-nav {
+    color: var(--grey-text);
+    font-size: x-small;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    color: var(--white-text);
+    font-weight: bold;
+}
+
+.title-cover {
+    color: var(--white-text);
+    font-size: small;
+    font-weight: bold;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.subtitle-cover {
+    color: var(--grey-text);
+    font-size: xx-small;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+    line-height: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-around;
+    
+}
+
+.header-btn {
+    color: var(--white-text);
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: x-small;
+    text-align: center;
+}
+
+.flex-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
 /* UTILITIES */
 
 
@@ -31,7 +101,6 @@ body {
 .wrapper {
     width: 100%;
     height: 100vh;
-    background-color: rgb(235, 154, 154);
 }
 
 .top {
@@ -41,20 +110,20 @@ body {
 
 .action-bar {
     height: 80px;
-    background-color: rgb(33, 33, 33);
+    background-color: var(--grey-action-bar);
 }
 
 .side-bar {
-    width: 60px;
+    width: 50px;
     height: 100%;
-    background-color: rgb(144, 238, 144);
+    background-color: var(--black-side-bar);
 }
 
 .main-content {
     width: calc(100% - 60px);
     height: 100%;
     overflow: auto;
-    background-color: rgb(250, 235, 215);
+    background-color: var(--grey-main);
 }
 
 .header {
@@ -77,6 +146,11 @@ body {
 .col {
     width: calc((100% - 10px) / 2);
     min-height: 60px;
-    border: 3px solid blue;
+}
+
+.list {
+    flex-wrap: wrap;
+    gap: 30px;
 }
 /* LAYOUT */
+
