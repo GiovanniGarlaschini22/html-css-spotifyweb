@@ -5,6 +5,14 @@
         width: 150px;
     }
 
+   .sb-top {
+        display: none;
+   }
+
+   .sb-bottom {
+        display: none;
+   }
+
     .main-content {
         width: calc(100% - 150px);
     }
@@ -17,6 +25,14 @@
         width: 150px;
     }
 
+    .sb-top {
+        display: none;
+    }
+    
+    .sb-bottom {
+        display: none;
+    }
+
     .col {
         width: calc((100% - 30px) / 4);
     }
@@ -27,6 +43,14 @@
 
     .side-bar {
         width: 150px;
+    }   
+
+    .sb-top {
+        display: none;
+    }
+    
+    .sb-bottom {
+        display: none;
     }
 
     .col {
