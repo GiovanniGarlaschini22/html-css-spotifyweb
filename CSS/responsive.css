@@ -16,6 +16,11 @@
     .main-content {
         width: calc(100% - 150px);
     }
+
+    .large-bar {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Tablet view */
@@ -36,7 +41,14 @@
     .col {
         width: calc((100% - 30px) / 4);
     }
+
+    .large-bar {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
+
 
 /* Desktop view */
 @media screen and (min-width: 1024px) {
@@ -55,5 +67,10 @@
 
     .col {
         width: calc((100% - 50px) / 6);
+    }
+
+    .large-bar {
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -107,6 +107,17 @@ body {
     padding-bottom: 10px;
     padding-right: 2px;
 }
+
+.subtitle {
+    color: var(--grey-text);
+    font-weight: 500;
+    font-size: x-small;
+    margin-bottom: 20px;
+}
+
+.radius-img {
+    border-radius: 100px;
+}
 /* UTILITIES */
 
 
@@ -125,13 +136,47 @@ body {
     display: flex;
     height: 80px;
     background-color: var(--grey-action-bar);
-    justify-content: space-between;
+}
+/* sound track */
+.sound {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+    height: 80px;
+    border: 1px solid lightcoral;
+    text-align: left;
+}
+.small-img {
+    width: 40px;
+    height: 40px;
 }
 
+/* sound track end */
+
+/* action btn */
+.action-btn {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    width: 50%;
+    height: 80px;
+    border: 1px solid rgb(162, 240, 128);
+
+    .act-icon {
+    width: 100px;
+    margin-top: 20px;
+    }
+}
+/* action btn end */
+
 /* display */
-
+.display {
+    width: 25%;
+    height: 80px;
+    border: 1px solid rgb(128, 191, 240);
+}
 /* display end */
-
 /* action bar */
 .side-bar {
     width: 60px;
@@ -179,10 +224,6 @@ body {
     justify-content: center;
 }
 
-.side-bar-responsive {
-
-}
-
 .logo-big {
     width: 80%;
     padding-left: 15px;
@@ -196,3 +237,77 @@ body {
 }
 /* LAYOUT */
 
+
+/* large bar */
+.large-bar {
+    display: none;
+}
+
+.big-logo {
+    width: 100px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.col-40 {
+    width: 140px;
+    height: 350px;
+}
+
+.col-30 {
+    width: 140px;
+    height: 260px;
+}
+
+/* List section */
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.txt-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--grey-text);
+    font-size: small;
+}
+
+.img-list {
+    width: 15%;
+}
+
+/* List section */
+
+/* playlist section */
+.list-playlist {
+   padding-top: 30px;
+   line-height: 20px;
+}
+.title-list {
+    color: var(--grey-text);
+    align-items: center;
+    padding-left: 5px;
+}
+
+/* playlist section */
+
+/* John Doe section */
+.install {
+   padding-top: 210px;
+}
+
+.install-app {
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+.john-doe {
+    padding-top: 5px;
+    color: white;
+}
+/* John Doe section */
